@@ -35,20 +35,21 @@
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert.csv`,499MB
 #### 震央地名表
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_name.csv`,15KB
+### 出力結果
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.csv`576MB
 
-## 震源データ及び震度データをGISデータ（FaltGeobuf形式及びGeoParquet形式）へ変換
-- 震源データ及び震度データのGISデータ（FaltGeobuf形式及びGeoParquet形式）への変換には[QGIS（バージョン3.28.4）](https://qgis.org/ja/site/)を使用します。
+## 震源データをGISデータ（FaltGeobuf形式及びGeoParquet形式）へ変換
+- 震源データのGISデータ（FaltGeobuf形式及びGeoParquet形式）への変換には[QGIS（バージョン3.28.4）](https://qgis.org/ja/site/)を使用します。
 ### 使用データ
-#### 震源データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.csv`,19.6MB
-#### 震度データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.csv`,180.2MB
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.csv`576MB
 ### 出力結果（FaltGeobuf形式及びGeoParquet形式）
-#### 震源データ
-##### FaltGeobuf形式
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.fgb`,51.6MB
-##### GeoParquet形式
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.parquet`,8.5MB
+#### FaltGeobuf形式
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
+#### GeoParquet形式
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.parquet`,234MB
+
+
+
 #### 震度データ
 ##### FaltGeobuf形式
 `https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.fgb`,453.8MB
