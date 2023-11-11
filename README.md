@@ -48,36 +48,23 @@
 #### GeoParquet形式
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.parquet`,234MB
 
-
-
-#### 震度データ
-##### FaltGeobuf形式
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.fgb`,453.8MB
-##### GeoParquet形式
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.parquet`,29.8MB
-
 ## FaltGeobuf形式からPMTiles形式への変換
 FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)への変換には[feltのtippecanoe](https://github.com/felt/tippecanoe)を使用します。
 ### 使用データ（FaltGeobuf形式）
-#### 震源データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.fgb`,51.6MB
-#### 震度データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.fgb`,453.8MB
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
 ### 出力結果（PMTiles形式）
-#### 震源データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.pmtiles`,177.4MB
-#### 震度データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.pmtiles`,541.7MB
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9
 
 ### ベクトルタイル設計情報
 - 震源データ及び震度データそのものを可能な限り生かしたデータです。
 - tippecanoeによるデータの間引き（自動）は行っていません。
 
 ### ズームレベル範囲
-- 0-14
+- 0-14 or 4-9
 
 ### 属性
-- 震源データ及び震度データの属性はそのまま生かしています。
+- 震源データの属性はそのまま生かしています。
 
 ### PMTiles Viewer
 - PMTilesはPMTiles Viewerで閲覧することができます。
