@@ -81,15 +81,15 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 ## データ使用上の注意
 - データを使用するにあたり、下記のデータフォーマットや気象庁の地震カタログの解説を必ずご確認ください。
 - データフォーマット  
-https://www.data.jma.go.jp/svd/eqev/data/bulletin/data/shindo/format_j.pdf
+https://www.data.jma.go.jp/eqev/data/bulletin/data/format/hypfmt_j.html
 - 気象庁の地震カタログの解説  
 https://www.data.jma.go.jp/svd/eqev/data/bulletin/data/hypo/relocate.html
 
 ## ライセンス
-本プログラムは[MITライセンス](https://github.com/shi-works/jma-earthquake-data-converter/blob/main/LICENSE)で提供されます。  
+本プログラムは[MITライセンス]()で提供されます。  
 本データセットはCC-BY-4.0で提供されます。使用の際には本レポジトリへのリンクを提示してください。
 
-また、本データセットは、気象庁が公開している、地震月報(カタログ編)の震度データ及び震度観測点一覧を加工して作成したものです。本データセットの使用・加工にあたっては、[気象庁の利用規約](https://www.jma.go.jp/jma/kishou/info/coment.html)を必ずご確認ください。
+また、本データセットは、気象庁が公開している、地震月報(カタログ編)の震源データを加工して作成したものです。本データセットの使用・加工にあたっては、[気象庁の利用規約](https://www.jma.go.jp/jma/kishou/info/coment.html)を必ずご確認ください。
 
 ## 免責事項
 利用者が当該データを用いて行う一切の行為について何ら責任を負うものではありません。
