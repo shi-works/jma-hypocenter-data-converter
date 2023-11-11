@@ -19,7 +19,7 @@
 
 ## 震源データを読みやすい形式へ変換（hypocenter_converter.py）
 - 震源データ（CSV形式）を読みやすい形式（CSV形式）に変換するプログラムです。
-- 震源データの西暦、月、日、時、分、秒より地震IDを作成し、震源データ及び震度データそれぞれに付与しています。
+- 震源データの西暦、月、日、時、分、秒より地震IDを作成し、付与しています。
 - 震源データの西暦、月、日、時、分、秒よりDatTime及びUnixTimeを作成し、付与しています。
 - 震源データの緯度(度)、緯度(分)、経度(度)、経度(分)よりLatitude、Longitudeを作成しています。
 - 属性情報は必要最小限にしていますので適宜改変してください。
@@ -27,6 +27,14 @@
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter.csv`,643MB
 ### 出力結果
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert.csv`,499MB
+
+## 震源データに震央地名を付与（hypocenter_converter_add_name.py）
+- 震央地名表を用いて、震源データに震央地名（漢字）を付与するプログラムです。
+### 使用データ
+#### 震源データ
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert.csv`,499MB
+#### 震央地名表
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_name.csv`,15KB
 
 ## 震源データ及び震度データをGISデータ（FaltGeobuf形式及びGeoParquet形式）へ変換
 - 震源データ及び震度データのGISデータ（FaltGeobuf形式及びGeoParquet形式）への変換には[QGIS（バージョン3.28.4）](https://qgis.org/ja/site/)を使用します。
