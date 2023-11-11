@@ -45,7 +45,7 @@
 ### 出力結果（FaltGeobuf形式及びGeoParquet形式）
 #### FaltGeobuf形式
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
-#### GeoParquet形式
+#### GeoParquet形式（QGIS表示用）
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.parquet`,234MB
 
 ## FaltGeobuf形式からPMTiles形式への変換
