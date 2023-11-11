@@ -54,7 +54,7 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
 ### 出力結果（PMTiles形式）
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14（精度0.5m）  
-`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9（精度20m）
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9_r2.pmtiles`,408MB,ズームレベル4-9（精度20m）
 
 ### ベクトルタイル設計情報
 - 震源データそのものを可能な限り生かしたデータです。
