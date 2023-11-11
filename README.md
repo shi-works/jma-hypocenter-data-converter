@@ -53,8 +53,8 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 ### 使用データ（FaltGeobuf形式）
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
 ### 出力結果（PMTiles形式）
-`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14  
-`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14（精度0.5m）  
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9（精度20m）
 
 ### ベクトルタイル設計情報
 - 震源データ及び震度データそのものを可能な限り生かしたデータです。
@@ -72,16 +72,11 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 
 ## デモサイト
 - MapLibre GL JSで構築
-- https://shi-works.github.io/jma-earthquake-data-converter/
+- https://shi-works.github.io/aist-dem-with-hypocenter-on-maplibre-gl-js
 - サンプル画像
-![image](https://github.com/shi-works/jma-earthquake-data-converter/assets/71203808/1c06cc86-f8a3-48ca-8971-1de10550a864)
+![image](https://github.com/shi-works/jma-hypocenter-data-converter/assets/71203808/80f707d0-aa05-4d78-b7c5-bfab5f005142)
 ### 使用データ
-#### 震源データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/hypocenter_convert.pmtiles`,177.4MB
-#### 震度データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-earthquake/shindo_convert.pmtiles`,541.7MB
-#### 人口集中地区（2020年）
-`https://xs489works.xsrv.jp/pmtiles-data/r2DID/2020_did_ddsw_01-47_JGD2011.pmtiles`,12.7MB
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9（精度20m）
 
 ## データ使用上の注意
 - データを使用するにあたり、下記のデータフォーマットや気象庁の地震カタログの解説を必ずご確認ください。
