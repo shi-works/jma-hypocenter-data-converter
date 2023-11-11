@@ -53,7 +53,7 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 ### 使用データ（FaltGeobuf形式）
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.fgb`,1.4GB
 ### 出力結果（PMTiles形式）
-`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name.pmtiles`,2.4GB,ズームレベル0-14  
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9
 
 ### ベクトルタイル設計情報
