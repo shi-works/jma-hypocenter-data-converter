@@ -9,9 +9,13 @@
 - なお、一括で震源データ（dat）をダウンロードするPythonスクリプトは以下にあります。
 - https://github.com/shi-works/jma-hypocenter-data-converter/blob/main/src/dat_dl.py
 
-## 震源データのマージとCSV形式への変換
-- 震源データ（dat）は複数のファイルで固定長になっているので、データのマージとCSV形式に変換するプログラムです。
-
+## 震源データのマージとCSV形式への変換（dat_converter.py）
+- 震源データ（dat）は複数のファイル、かつ、固定長になっているので、データのマージとCSV形式に変換するプログラムです。
+### 使用データ
+- 震源データ（datファイル）一式
+### 出力結果
+#### 震源データ（CSV形式）
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter.csv`,643MB
 
 ## 震源データ及び震度データの抽出（dat_converter.py）
 - 震度データ（datファイル）から震源データ（csvファイル）及び震度データ（csvファイル）を抽出するプログラムです。
