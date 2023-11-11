@@ -10,7 +10,7 @@
 - https://github.com/shi-works/jma-hypocenter-data-converter/blob/main/src/dat_dl.py
 
 ## 震源データのマージとCSV形式への変換（dat_converter.py）
-- 震源データ（dat）は複数のファイル、かつ、固定長になっているので、データのマージとCSV形式に変換するプログラムです。
+- 震源データ（dat）は、複数のファイル、かつ、固定長になっているので、データのマージとCSV形式に変換します。
 ### 使用データ
 - 震源データ（datファイル）一式
 ### 出力結果
