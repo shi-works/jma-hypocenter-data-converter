@@ -7,14 +7,11 @@
 - 以下の気象庁のサイトより地震月報(カタログ編)の震源データ（dat）を入手します。
 - https://www.data.jma.go.jp/eqev/data/bulletin/hypo.html
 - なお、一括で震源データ（dat）をダウンロードするPythonスクリプトは以下にあります。
-- 
+- https://github.com/shi-works/jma-hypocenter-data-converter/blob/main/src/dat_dl.py
 
-## 震度観測点一覧を読みやすい形式へ変換（code_p2csv.py）
-- 震度観測点一覧（datファイル）を読みやすい形式（csvファイル）に変換するプログラムです。
-### 使用データ
-`https://github.com/shi-works/jma-earthquake-data-converter/blob/main/data/code_p.dat`
-### 出力結果
-`https://github.com/shi-works/jma-earthquake-data-converter/blob/main/data/code_p.csv`
+## 震源データのマージとCSV形式への変換
+- 震源データ（dat）は複数のファイルで固定長になっているので、データのマージとCSV形式に変換するプログラムです。
+
 
 ## 震源データ及び震度データの抽出（dat_converter.py）
 - 震度データ（datファイル）から震源データ（csvファイル）及び震度データ（csvファイル）を抽出するプログラムです。
