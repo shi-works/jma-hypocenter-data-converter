@@ -57,7 +57,7 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 `https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9（精度20m）
 
 ### ベクトルタイル設計情報
-- 震源データ及び震度データそのものを可能な限り生かしたデータです。
+- 震源データそのものを可能な限り生かしたデータです。
 - tippecanoeによるデータの間引き（自動）は行っていません。
 
 ### ズームレベル範囲
