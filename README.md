@@ -77,7 +77,7 @@ FaltGeobuf形式から[PMTiles形式](https://github.com/protomaps/PMTiles)へ�
 - サンプル画像
 ![image](https://github.com/shi-works/jma-hypocenter-data-converter/assets/71203808/80f707d0-aa05-4d78-b7c5-bfab5f005142)
 ### 使用データ
-`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9.pmtiles`,857MB,ズームレベル4-9（精度20m）
+`https://xs489works.xsrv.jp/pmtiles-data/jma-hypocenter/hypocenter_convert_add_name_Z4_z9_r2.pmtiles`,408MB,ズームレベル4-9（精度20m）
 
 ## データ使用上の注意
 - データを使用するにあたり、下記のデータフォーマットや気象庁の地震カタログの解説を必ずご確認ください。
